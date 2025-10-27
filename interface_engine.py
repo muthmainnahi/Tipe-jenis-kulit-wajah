@@ -91,7 +91,7 @@ for rule in rules:
 
 # --- Jika tidak ada rule dengan ≥3 gejala cocok ---
 if not results:
-    print("\n⚠️ Tidak ada tipe kulit yang memiliki minimal 3 gejala cocok.")
+    print("\n Tidak ada tipe kulit yang memiliki minimal 3 gejala cocok.")
     print("Silakan tambahkan lebih banyak gejala untuk hasil lebih akurat.")
     exit()
 
@@ -108,5 +108,5 @@ for r in results:
         print(f"   - {d[0]}: CF_pakar={d[1]}, CF_user={d[2]} → CF_pararel={d[3]}")
     print()
 
-print(f"👉 Diagnosis paling mungkin: {results[0]['Diagnosis']} "
+print(f" Diagnosis paling mungkin: {results[0]['Diagnosis']} "
       f"dengan tingkat keyakinan {results[0]['CF_Percent']}%")
