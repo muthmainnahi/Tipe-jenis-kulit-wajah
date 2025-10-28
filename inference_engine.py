@@ -1,7 +1,7 @@
 import json
 
 class InferenceEngineCF:
-    def __init__(self, rule_file="data_penyakit.json"):
+    def __init__(self, rule_file="Rules.json"):
         """Load basis pengetahuan (rules) dari file JSON"""
         with open(rule_file, 'r', encoding='utf-8') as f:
             self.rules = json.load(f)
@@ -119,5 +119,6 @@ class InferenceEngineCF:
 # ===============================
 
 if __name__ == "__main__":
-    engine = InferenceEngineCF("data_penyakit.json")
+    engine = InferenceEngineCF("Rules.json")
     engine.diagnosa()
+
