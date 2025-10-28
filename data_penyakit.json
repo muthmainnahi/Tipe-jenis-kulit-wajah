@@ -1,0 +1,153 @@
+[
+  {
+    "id": "R1", 
+    "if": [
+      {"gejala": "G1", "cf": 0.6},
+      {"gejala": "G2", "cf": 0.8},
+      {"gejala": "G4", "cf": 0.8},
+      {"gejala": "G7", "cf": 0.4},
+      {"gejala": "G11", "cf": 0.6},
+      {"gejala": "G12", "cf": 0.6},
+      {"gejala": "G17", "cf": 0.6}
+
+    ],
+    "then": "P01",
+    "desc": "Common cold"
+  },
+  {
+    "id": "R2", 
+    "if": [
+      {"gejala": "G1", "cf": 0.8},
+      {"gejala": "G2", "cf": 0.4},
+      {"gejala": "G3", "cf": 0.6},
+      {"gejala": "G4", "cf": 0.6},
+      {"gejala": "G6", "cf": 0.8},
+      {"gejala": "G8", "cf": 0.4}
+    ],
+    "then": "P02",
+    "desc": "Bronkiolitis"
+  },
+  {
+    "id": "R3", 
+    "if": [
+      {"gejala": "G1", "cf": 0.8},
+      {"gejala": "G3", "cf": 0.8},
+      {"gejala": "G4", "cf": 0.4},
+      {"gejala": "G6", "cf": 0.6}
+    ],
+    "then": "P03",
+    "desc": "Bronkitis"
+  },
+  {
+    "id": "R4", 
+    "if": [
+      {"gejala": "G2", "cf": 0.8},
+      {"gejala": "G3", "cf": 0.6},
+      {"gejala": "G8", "cf": 0.8},
+      {"gejala": "G9", "cf": 0.6}
+    ],
+    "then": "P04",
+    "desc": "Bronkopneumonia"
+  },
+  {
+    "id": "R5", 
+    "if": [
+      {"gejala": "G1", "cf": 0.8},
+      {"gejala": "G2", "cf": 0.4},
+      {"gejala": "G4", "cf": 0.6},
+      {"gejala": "G5", "cf": 0.6},
+      {"gejala": "G10", "cf": 0.6},
+      {"gejala": "G12", "cf": 0.8},
+      {"gejala": "G18", "cf": 0.6}
+
+    ],
+    "then": "P05",
+    "desc": "Laringitis"
+  },
+  {
+    "id": "R6", 
+    "if": [
+      {"gejala": "G1", "cf": 0.8},
+      {"gejala": "G4", "cf": 0.6},
+      {"gejala": "G5", "cf": 0.6},
+      {"gejala": "G10", "cf": 0.8},
+      {"gejala": "G11", "cf": 0.6}
+    ],
+    "then": "P06",
+    "desc": "Pertusis Kataralis"
+  },
+  {
+    "id": "R7", 
+    "if": [
+      {"gejala": "G1", "cf": 0.8},
+      {"gejala": "G6", "cf": 0.8},
+      {"gejala": "G21", "cf": 0.4},
+      {"gejala": "G23", "cf": 0.8}
+    ],
+    "then": "P07",
+    "desc": "Pertusis Spasmodik"
+  },
+  {
+    "id": "R8", 
+    "if": [
+      {"gejala": "G2", "cf": 0.8},
+      {"gejala": "G3", "cf": 0.6},
+      {"gejala": "G5", "cf": 0.4},
+      {"gejala": "G7", "cf": 0.6},
+      {"gejala": "G8", "cf": 0.8},
+      {"gejala": "G14", "cf": 0.4},
+      {"gejala": "G19", "cf": 0.4}
+
+    ],
+    "then": "P08",
+    "desc": "Pneumonia"
+  },
+  {
+    "id": "R9", 
+    "if": [
+      {"gejala": "G1", "cf": 0.8},
+      {"gejala": "G2", "cf": 0.6},
+      {"gejala": "G7", "cf": 0.6},
+      {"gejala": "G10", "cf": 0.6},
+      {"gejala": "G15", "cf": 0.8},
+      {"gejala": "G16", "cf": 0.6}
+
+    ],
+    "then": "P09",
+    "desc": "Sinusitis"
+  },
+  {
+    "id": "R10", 
+    "if": [
+      {"gejala": "G1", "cf": 0.6},
+      {"gejala": "G2", "cf": 0.8},
+      {"gejala": "G3", "cf": 0.8},
+      {"gejala": "G5", "cf": 0.4},
+      {"gejala": "G6", "cf": 0.6},
+      {"gejala": "G7", "cf": 0.4},
+      {"gejala": "G9", "cf": 0.4},
+      {"gejala": "G13", "cf": 0.6},
+      {"gejala": "G14", "cf": 0.4},
+      {"gejala": "G18", "cf": 0.4},
+      {"gejala": "G20", "cf": 0.4}
+
+    ],
+    "then": "P10",
+    "desc": "Flu Burung"
+  },
+  {
+    "id": "R10", 
+    "if": [
+      {"gejala": "G1", "cf": 0.8},
+      {"gejala": "G2", "cf": 0.8},
+      {"gejala": "G3", "cf": 0.8},
+      {"gejala": "G6", "cf": 0.6},
+      {"gejala": "G9", "cf": 0.4},
+      {"gejala": "G13", "cf": 0.8},
+      {"gejala": "G22", "cf": 0.4}
+     
+    ],
+    "then": "P10",
+    "desc": "Tuberculosis"
+  }
+]
