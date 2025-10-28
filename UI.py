@@ -411,4 +411,5 @@ class CuteCFv6(tk.Tk):
     
 if __name__ == "__main__":
     app = CuteCFv6()
+
     app.mainloop()
